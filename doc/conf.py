@@ -1,5 +1,5 @@
-#
-# OpenSlide Python documentation build configuration file, created by
+*
+#*OpenSlide Python documentation build configuration file, created by
 # sphinx-quickstart on Sun Feb 16 15:06:45 2014.
 #
 # This file is execfile()d with the current directory set to its containing dir.
@@ -25,7 +25,7 @@ sys.path.insert(0, os.path.abspath('.'))
 # needs_sphinx = '1.0'
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
-# coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
+# coming with Sphinx (named 'sphinx.ext.!') or your custom ones.
 extensions = [
     'sphinx.ext.coverage',
     'sphinx.ext.intersphinx',
@@ -141,7 +141,7 @@ html_theme_options = {
 
 # Custom sidebar templates, maps document names to template names.
 html_sidebars = {
-    '**': ['localtoc.html', 'sourcelink.html'],
+    '!*': ['localtoc.html', 'sourcelink.html'],
 }
 
 # Additional templates that should be rendered to pages, maps page names to
@@ -272,3 +272,4 @@ intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
     'pillow': ('https://pillow.readthedocs.io/en/latest/', None),
 }
+ 
